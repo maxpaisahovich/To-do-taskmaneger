@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  background-color: burlywood;
+  padding: 10px;
+  border-radius: 1em;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#new-task {
+  width: 100%;
+}
+
+#new-task input {
+  border-radius: 8px;
+  height: 30px;
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+#new-task button {
+  width: 50px;
+  margin-left: 10px;
+}
+
+h3#taskText {
+  display: inline;
+  font-size: medium;
+}
+
+div.task {
+  text-align: left;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 13px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#sort-tasks {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+.task-btn-group {
+  display: flex;
+  justify-content: end;
+  text-align: end;
+  align-content: center;
+  gap: 2px;
+  top: 4.5px;
+  right: 2px;
+  position: absolute;
+}
